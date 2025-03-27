@@ -1,0 +1,32 @@
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.word-slots {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.letter-tiles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.check-button {
+  margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+  .word-slots, .letter-tiles {
+    gap: 5px;
+  }
+}

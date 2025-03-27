@@ -1,0 +1,36 @@
+.letter-slot {
+  width: 50px;
+  height: 50px;
+  border: 2px dashed #4169e1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #f0f8ff;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.letter-slot.filled {
+  background-color: #e8f4ff;
+  border-style: solid;
+  color: #4169e1;
+}
+
+.letter-slot:hover.empty {
+  background-color: #e6efff;
+}
+
+.letter-slot:hover.filled {
+  background-color: #ffeaea;
+}
+
+@media (max-width: 480px) {
+  .letter-slot {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,38 @@
+.letter-tile {
+  width: 50px;
+  height: 50px;
+  background-color: #4169e1;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.1s, opacity 0.2s;
+  user-select: none;
+}
+
+.letter-tile:hover:not(.used) {
+  transform: scale(1.05);
+}
+
+.letter-tile.used {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.letter-tile.selected {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.7);
+}
+
+@media (max-width: 480px) {
+  .letter-tile {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
