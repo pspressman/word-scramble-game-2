@@ -11,7 +11,7 @@ export const wordList = [
   {word: "ANKH", hint: "Egyptian symbol for life"},
   {word: "SCARAB", hint: "Sacred beetle symbol"},
   {word: "PAPYRUS", hint: "Ancient Egyptian paper"},
-  {word: "OBELISK", hint: "Tall stone monument with a pointy top"}
+  {word: "OBELISK", hint: "Tall stone monument with a pointy top"}, // ADDED COMMA
   {word: "OLYMPIAN", hint: "God or athlete from Mount Olympus"},
   {word: "ATHENS", hint: "Famous Greek city-state"},
   {word: "SPARTA", hint: "Warrior city of Ancient Greece"},
@@ -23,19 +23,19 @@ export const wordList = [
   {word: "PHILOSOPHY", hint: "Study of big ideas and questions"},
   {word: "ORACLE", hint: "Person who gave wise or magical answers"},
   {word: "TROJAN", hint: "Related to the famous wooden horse trick"},
-  {word: "PARTHENON", hint: "Famous temple in Athens"}
+  {word: "PARTHENON", hint: "Famous temple in Athens"}, // ADDED COMMA
   {word: "ZIGGURAT", hint: "Step-shaped temple tower"},
   {word: "CUNEIFORM", hint: "Wedge-shaped writing system"},
   {word: "SARGON", hint: "Famous king of Akkad"},
   {word: "UR", hint: "An ancient city in Sumer"},
-  {word: "TIGRIS", hint: "One of Mesopotamia’s great rivers"},
+  {word: "TIGRIS", hint: "One of Mesopotamia's great rivers"},
   {word: "EUPHRATES", hint: "The other great river"},
   {word: "BABYLON", hint: "City with hanging gardens"},
   {word: "HAMMURABI", hint: "King known for writing laws"},
   {word: "CODE", hint: "Set of laws or rules"},
   {word: "CLAY", hint: "What tablets were made from"},
   {word: "SCRIBE", hint: "Person who writes"},
-  {word: "SILT", hint: "Rich soil from rivers"}
+  {word: "SILT", hint: "Rich soil from rivers"}, // ADDED COMMA
   {word: "GILGAMESH", hint: "Epic hero and king of Uruk"},
   {word: "ENKIDU", hint: "Wild man and best friend of Gilgamesh"},
   {word: "URUK", hint: "Gilgamesh's ancient city"},
@@ -45,7 +45,7 @@ export const wordList = [
   {word: "FLOOD", hint: "Big ancient storm, like in the story"},
   {word: "UTNAPISHTIM", hint: "Man who survived the great flood"},
   {word: "QUEST", hint: "Dangerous journey for a goal"},
-  {word: "IMMORTAL", hint: "Lives forever, like gods try to"}
+  {word: "IMMORTAL", hint: "Lives forever, like gods try to"}, // ADDED COMMA
   {word: "PERSEUS", hint: "Hero who slayed Medusa"},
   {word: "MEDUSA", hint: "Snake-haired monster who turns people to stone"},
   {word: "ATHENA", hint: "Goddess of wisdom and battle"},
@@ -57,7 +57,7 @@ export const wordList = [
   {word: "ODYSSEUS", hint: "Clever hero from the Odyssey"},
   {word: "PEGASUS", hint: "Flying horse from myth"},
   {word: "MINOTAUR", hint: "Bull-headed beast in a maze"},
-  {word: "THESEUS", hint: "Hero who beat the Minotaur"}
+  {word: "THESEUS", hint: "Hero who beat the Minotaur"}, // ADDED COMMA
   {word: "ORION", hint: "Hunter constellation with a belt"},
   {word: "HERCULES", hint: "Star group named after a strong hero"},
   {word: "PEGASUS", hint: "Winged horse in the night sky"},
